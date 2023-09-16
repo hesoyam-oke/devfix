@@ -1,0 +1,15 @@
+/* Context */
+
+* {
+    box-sizing: border-box;
+}
+
+
+.context-outer-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    pointer-events: all;
+    -webkit-animation: fadeinpls .8s ease 0s 1 normal none running;
+    animation: fadeinpls .8s ease 0s 1 normal none running
+}

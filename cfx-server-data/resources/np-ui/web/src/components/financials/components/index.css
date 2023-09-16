@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.MuiFormControl-root,
+hr {
+    width: 100%;
+}
+
+
+.financials-container {
+    color: white;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    position: relative;
+    /* user-select: unset; */
+    pointer-events: all;
+    background-color: rgb(34, 40, 49);
+}
+
+
+.financials-body {
+    flex: 1 1 0%;
+    overflow-y: scroll;
+}
+
+.financials-Accounts{
+    position: absolute;
+    background: black;
+    width: 30%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}

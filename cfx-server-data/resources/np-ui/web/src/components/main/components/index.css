@@ -1,0 +1,21 @@
+/* Main */
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+@keyframes zoomIn {
+    from {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  .alert {
+    animation: zoomIn 0.5s;
+  }
+  

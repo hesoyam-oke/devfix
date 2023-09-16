@@ -1,0 +1,88 @@
+.container {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 15rem;
+    right: 0;
+    font-family: 'pricedown';
+}
+
+/* #balance {
+    float: right;
+    font-family: pricedown;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+    padding: 4px;
+    text-shadow: rgb(0, 0, 0) -1.5px 1.5px 1.5px, rgb(0, 0, 0) 1.5px 1.5px 0px, rgb(0, 0, 0) 1.5px -1.5px 0px, rgb(0, 0, 0) -1.5px -1.5px 0px;
+    margin: 0;
+    margin-right: 6px;
+    padding: 0;
+} */
+
+#cash {
+    float:right;
+    font-family: pricedown;
+    font-weight: 400;
+    font-size: 2.4rem;
+    color: white;
+    padding: 4px;
+    text-shadow: 2px 2px 0 #000;
+    margin: 0;
+    margin-right: 6px;
+    padding: 0;
+    
+}
+
+#add-balance {
+    float:right;
+    font-family: pricedown;
+    font-weight: 400;
+    font-size: 29px;
+    color: white;
+    padding: 4px;
+    text-shadow: 2px 2px 0 #000;
+    margin: 0;
+    margin-right: 6px;
+    margin-top: 6px;
+    padding: 0;
+}
+#icon {
+    height: 21px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.green {
+    color: #008000;
+    font-weight: 700;
+    margin-right: -2px;
+}
+
+.red {
+    color: rgb(255, 0, 0);
+}
+
+#pre {
+    font-size: 0.8rem;
+    margin-right: 5px;
+}
+
+.balance {
+    display: inline-block;
+    height: 30px;
+    width: 100%;
+}
+
+.cashtransaction {
+    display: inline-block;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: white;
+}

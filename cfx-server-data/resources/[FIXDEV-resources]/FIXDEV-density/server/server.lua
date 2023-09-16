@@ -1,0 +1,5 @@
+-- RegisterNetEvent('FIXDEV:peds:rogue')
+-- AddEventHandler('FIXDEV:peds:rogue', function(toDelete)
+--   if toDelete == nil then return end
+--   TriggerClientEvent("FIXDEV:peds:rogue:delete", -1, toDelete)
+--  end)
